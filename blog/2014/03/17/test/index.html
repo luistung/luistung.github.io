@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Test - My Octopress Blog</title>
+  <title>Test - Luis Tung's blog</title>
   <meta name="author" content="Luis Tung">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="In equation \eqref{eq:sample}, we find the value of an
+interesting integral: \begin{equation} \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +22,7 @@
   <link rel="canonical" href="http://luistung.github.io/blog/2014/03/17/test">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Luis Tung's blog" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
@@ -32,6 +32,12 @@
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<!--支持公式编号-->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
 </script>
 <script type="text/javascript"
   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -43,9 +49,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">Luis Tung's blog</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>云无心以出岫</h2>
   
 </hgroup>
 
@@ -63,8 +69,9 @@
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/">主页</a></li>
+  <li><a href="/blog/archives">文章列表</a></li>
+  <li><a href="/about">关于我</a></li>
 </ul>
 
 </nav>
@@ -101,7 +108,19 @@
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><p>In equation \eqref{eq:sample}, we find the value of an
+interesting integral:</p>
+
+<script type="math/tex; mode=display">
+\begin{equation}
+  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
+  \label{eq:sample}
+\end{equation}
+</script>
+
+<script type="math/tex; mode=display">
+x={-b \pm \sqrt{b^2-4ac} \over 2a}
+</script>
 </div>
 
 
@@ -144,6 +163,8 @@
     <p class="meta">
       
       
+        <a class="basic-alignment right" href="/blog/2014/03/17/test2/" title="Next Post: test2">test2 &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -163,13 +184,33 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/03/17/test2/">Test2</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/03/17/test/">Test</a>
       </li>
     
   </ul>
 </section>
+<section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/categories/nlp/'>NLP (1)</a></li>
+
+  </ul>
+</section>
 
 
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/+LuisTung?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
 
 
 
