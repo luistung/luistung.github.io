@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Luis Tung's blog]]></title>
+  <title><![CDATA[Luis Tung's Blog]]></title>
   <link href="http://luistung.github.io/atom.xml" rel="self"/>
   <link href="http://luistung.github.io/"/>
-  <updated>2014-03-18T00:37:47+08:00</updated>
+  <updated>2014-03-21T23:35:14+08:00</updated>
   <id>http://luistung.github.io/</id>
   <author>
     <name><![CDATA[Luis Tung]]></name>
@@ -12,35 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Test2]]></title>
-    <link href="http://luistung.github.io/blog/2014/03/17/test2/"/>
-    <updated>2014-03-17T23:23:21+08:00</updated>
-    <id>http://luistung.github.io/blog/2014/03/17/test2</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Test]]></title>
-    <link href="http://luistung.github.io/blog/2014/03/17/test/"/>
-    <updated>2014-03-17T00:48:12+08:00</updated>
-    <id>http://luistung.github.io/blog/2014/03/17/test</id>
-    <content type="html"><![CDATA[<p>In equation \eqref{eq:sample}, we find the value of an
-interesting integral:</p>
-
-<script type="math/tex; mode=display">
-\begin{equation}
-  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
-  \label{eq:sample}
-\end{equation}
-</script>
-
-<script type="math/tex; mode=display">
-x={-b \pm \sqrt{b^2-4ac} \over 2a}
-</script>
-]]></content>
-  </entry>
   
 </feed>
